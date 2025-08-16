@@ -1,0 +1,160 @@
+body{
+    overflow-x: hidden;
+}
+
+.header-container{
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: left;
+}
+
+.header-logo img{
+    width: 25%;
+}
+
+.header-info{
+    display: flex;
+    justify-content: center;
+    height: 49px;
+    margin-bottom: 20px;
+}
+
+.header-info h3{
+    font-size: 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: #0ebfc3;
+    height: 50px;
+    margin: 20px auto;
+}
+
+.content{
+    margin: 10px;
+}
+
+.ct-dt-left{
+    border: 2px solid #1AC0C3;
+    margin-bottom: 10%;
+}
+
+.content-left h4{
+    background-color: #E1EDED;
+    color:#10B1E8;
+    margin: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ct-dt-left img{
+    width: 10%;
+    margin: auto 10px;
+}
+
+.content-left p{
+    margin-left: 3%;
+}
+
+.ct-banner img{
+    width: 100%;
+}
+
+.ct-title{
+    text-align: center;
+    color: #42CAF0;
+    margin: 2% auto;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3), -3px -3px 3px rgba(0, 0, 0, 0.3);
+    padding: 1% 0px;
+}
+
+.ct-tour{
+    margin: 2% auto;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3), -3px -3px 3px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.ct-tour img{
+    width: 150%;
+    height: auto;
+}
+
+.tour-info{
+    padding-left: 15%;
+}
+
+.tour-info h2{
+    color: #42CAF0;
+}
+
+.tour-info h4{
+    color: #f4702e;
+}
+
+.booknow{
+    background-color: #10B1E8;
+    display: inline-block;
+    margin-left :80%; 
+    margin-top: 10%;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 10px;
+    background-color: #0ebfc3;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 768px){              
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-logo{
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+    
+    .menu{
+        justify-content: flex-end;
+        height: max-content;
+    }
+    
+    .navbar-header{
+        width: 100vw;
+    }
+
+    .content{
+        justify-content: center;
+    }
+
+    .ct-tour img{
+        width: 100%;
+    }
+
+    .tour-info{
+        padding: 3%;
+    }
+
+    .booknow{
+        margin-left :40%;
+    }
+}
